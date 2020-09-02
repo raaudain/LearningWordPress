@@ -1,10 +1,24 @@
 <?php  
 
-function myFirstFunction() {
-    echo "Hey dummy";
-}
+$names = ["Ramon", "Tim", "Sarah", "John", "Tech N9ne"];
 
-myFirstFunction();
+// foreach ($names as $x) {
+//     if (strpos($x, "a")) {
+
+//         echo $x;
+//     }
+// }
+// if (names)
+
+$count = 0;
+
+function printNames() {
+    global $names, $count;
+    while ($names[$count]) {
+        echo "<br>" . $names[$count];
+        $count++;
+    }
+}
 
 ?>
 
@@ -18,6 +32,6 @@ myFirstFunction();
 </head>
 <body>
     <?php bloginfo("name"); ?>
-    <h1><?php bloginfo("description"); ?></h1>
+    <h1><?php printNames(); ?></h1>
 </body>
 </html>
