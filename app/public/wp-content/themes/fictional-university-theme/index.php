@@ -1,5 +1,11 @@
 <?php  
 
+function myFirstFunction() {
+    echo "Hey dummy";
+}
+
+myFirstFunction();
+
 ?>
 
 
@@ -11,6 +17,7 @@
     <title>Document</title>
 </head>
 <body>
-    This is something!!!!
+    <?php bloginfo("name"); ?>
+    <h1><?php bloginfo("description"); ?></h1>
 </body>
 </html>
