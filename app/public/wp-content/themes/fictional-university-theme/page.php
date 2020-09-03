@@ -1,5 +1,8 @@
 <?php  
 
+get_header();
+
+// page.php is for a single page.
 while(have_posts()) {
     the_post(); ?>
     <h1>This is a page. Not a post.</h1>
@@ -7,5 +10,7 @@ while(have_posts()) {
     <p><?php the_content(); ?></p>
     <?php  
 }
+
+get_footer();
 
 ?>
