@@ -1,0 +1,7 @@
+[03-Sep-2020 00:30:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function printNames() in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:21
+Stack trace:
+#0 /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/ramon/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/ramon/Lo...')
+#2 /Users/ramon/Local Sites/fictional-university/app/public/index.php(17): require('/Users/ramon/Lo...')
+#3 {main}
+  thrown in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 21
