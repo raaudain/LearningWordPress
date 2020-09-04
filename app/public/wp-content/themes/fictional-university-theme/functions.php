@@ -14,4 +14,11 @@ function university_files() {
 // Runs university_files()
 add_action("wp_enqueue_scripts", "university_files");
 
+// Changes page title
+function university_features() {
+    add_theme_support("title-tag");
+}
+
+add_action("after_setup_theme", "university_features");
+
 ?>
