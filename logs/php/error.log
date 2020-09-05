@@ -6,3 +6,19 @@ Stack trace:
 #3 {main}
   thrown in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 21
 [03-Sep-2020 02:05:34 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[04-Sep-2020 23:44:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22 and exactly 1 expected in /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/post.php:7069
+Stack trace:
+#0 /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(22): wp_get_post_parent_id()
+#1 /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/ramon/Lo...')
+#2 /Users/ramon/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/ramon/Lo...')
+#3 /Users/ramon/Local Sites/fictional-university/app/public/index.php(17): require('/Users/ramon/Lo...')
+#4 {main}
+  thrown in /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7069
+[04-Sep-2020 23:45:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 22 and exactly 1 expected in /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/post.php:7069
+Stack trace:
+#0 /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(22): wp_get_post_parent_id()
+#1 /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/ramon/Lo...')
+#2 /Users/ramon/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/ramon/Lo...')
+#3 /Users/ramon/Local Sites/fictional-university/app/public/index.php(17): require('/Users/ramon/Lo...')
+#4 {main}
+  thrown in /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7069
