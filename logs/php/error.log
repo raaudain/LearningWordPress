@@ -25,3 +25,6 @@ Stack trace:
 [05-Sep-2020 02:09:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 74
 [07-Sep-2020 03:36:38 UTC] PHP Parse error:  syntax error, unexpected 'get_header' (T_STRING) in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 5
 [07-Sep-2020 03:36:43 UTC] PHP Parse error:  syntax error, unexpected 'get_header' (T_STRING) in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 5
+[08-Sep-2020 05:19:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 34
+[08-Sep-2020 05:19:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 34
+[08-Sep-2020 05:22:30 UTC] PHP Parse error:  syntax error, unexpected ']' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
