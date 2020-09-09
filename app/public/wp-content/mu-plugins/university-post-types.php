@@ -5,6 +5,7 @@ function university_post_types() {
     // Google "register_post_type" for list of parameters
     register_post_type("event", [
         "rewrite" => ["slug" => "events"],
+        "supports" => ["title", "editor", "excerpt"],
         "has_archive" => true,
         "public" => true, // This makes the post time visiable to editors
         "labels" => [

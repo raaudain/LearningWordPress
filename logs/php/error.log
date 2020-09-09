@@ -29,3 +29,10 @@ Stack trace:
 [08-Sep-2020 05:19:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 34
 [08-Sep-2020 05:22:30 UTC] PHP Parse error:  syntax error, unexpected ']' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
 [09-Sep-2020 04:24:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
+[09-Sep-2020 06:54:57 UTC] PHP Fatal error:  Uncaught Error: Object of class DateTime could not be converted to string in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php:33
+Stack trace:
+#0 /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/ramon/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/ramon/Lo...')
+#2 /Users/ramon/Local Sites/fictional-university/app/public/index.php(17): require('/Users/ramon/Lo...')
+#3 {main}
+  thrown in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 33
