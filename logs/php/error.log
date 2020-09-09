@@ -28,3 +28,4 @@ Stack trace:
 [08-Sep-2020 05:19:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 34
 [08-Sep-2020 05:19:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 34
 [08-Sep-2020 05:22:30 UTC] PHP Parse error:  syntax error, unexpected ']' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 38
+[09-Sep-2020 04:24:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 29
