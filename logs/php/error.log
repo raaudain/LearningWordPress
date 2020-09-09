@@ -36,3 +36,5 @@ Stack trace:
 #2 /Users/ramon/Local Sites/fictional-university/app/public/index.php(17): require('/Users/ramon/Lo...')
 #3 {main}
   thrown in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 33
+[09-Sep-2020 20:41:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 32
+[09-Sep-2020 20:42:01 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 32
