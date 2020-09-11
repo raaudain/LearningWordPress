@@ -28,7 +28,13 @@ add_action("after_setup_theme", "university_features");
 // Filters out past dates on Events page
 function university_adjust_queries($query) {
     $today = date("Ymd");
-    
+    // is_main_query() doesn't check secondary queries
+    if (!is_admin() AND is_post_type_archive("program") and $query->is_main_query()) {
+        $query->set("orderby", "title");
+        $query->set("order", "ASC");
+        $query->set("posts_per_page", -1);
+    }
+
     if (!is_admin() AND is_post_type_archive("event") AND $query->is_main_query()) {
         $query->set("meta_key", "event_date");
         $query->set("orderby", "meta_value_num");
