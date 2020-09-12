@@ -36,7 +36,7 @@ function university_post_types() {
 
     // Professors post type
     register_post_type("professor", [
-        "supports" => ["title", "editor"],
+        "supports" => ["title", "editor", "thumbnail"],
         "public" => true,
         "labels" => [
             "name" => "Professors",
@@ -48,10 +48,6 @@ function university_post_types() {
         "menu_icon" => "dashicons-welcome-learn-more"
     ]);
 }
-
-
-
-
 
 add_action("init", "university_post_types");
 
