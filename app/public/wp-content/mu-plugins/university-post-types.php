@@ -18,7 +18,6 @@ function university_post_types() {
         "menu_icon" => "dashicons-calendar-alt" // Changes icon in dashboard. Google "wordpress dashicons"
     ]);
 
-
     // Creates Program Post Type
     register_post_type("program", [
         "rewrite" => ["slug" => "programs"],
@@ -33,6 +32,20 @@ function university_post_types() {
             "singular_name" => "Program"
         ],
         "menu_icon" => "dashicons-awards"
+    ]);
+
+    // Professors post type
+    register_post_type("professor", [
+        "supports" => ["title", "editor"],
+        "public" => true,
+        "labels" => [
+            "name" => "Professors",
+            "add_new_item" => "Add New Professor",
+            "edit_item" => "Edit Professor",
+            "all_items" => "All Professors",
+            "singular_name" => "Professor"
+        ],
+        "menu_icon" => "dashicons-welcome-learn-more"
     ]);
 }
 

@@ -45,3 +45,9 @@ Stack trace:
 [11-Sep-2020 07:14:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 85
 [11-Sep-2020 07:14:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 85
 [11-Sep-2020 07:15:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 85
+[12-Sep-2020 04:58:41 UTC] PHP Warning:  Use of undefined constant the_ID - assumed 'the_ID' (this will throw an Error in a future version of PHP) in /Users/ramon/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 2
+[12-Sep-2020 04:58:41 UTC] PHP Stack trace:
+[12-Sep-2020 04:58:41 UTC] PHP   1. {main}() /Users/ramon/Local Sites/fictional-university/app/public/index.php:0
+[12-Sep-2020 04:58:41 UTC] PHP   2. require() /Users/ramon/Local Sites/fictional-university/app/public/index.php:17
+[12-Sep-2020 04:58:41 UTC] PHP   3. require_once() /Users/ramon/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[12-Sep-2020 04:58:41 UTC] PHP   4. include() /Users/ramon/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
