@@ -43,7 +43,7 @@ if ($relatedProfessors->have_posts()) {
 
     echo "<hr class='section-break'>";
 echo "<h2 class='headline headline--medium'> " . get_the_title() . " Professors</h2>";
-
+echo "<ul class='profossor-cards'>";
 while ($relatedProfessors->have_posts()) {
     $relatedProfessors->the_post();
     ?>
@@ -54,6 +54,7 @@ while ($relatedProfessors->have_posts()) {
         </a>
     </li>
 <?php }
+echo "</ul>";
 }
 
             wp_reset_postdata();

@@ -18,6 +18,8 @@ add_action("wp_enqueue_scripts", "university_files");
 function university_features() {
     add_theme_support("title-tag");
     add_theme_support("post-thumbnails");
+    add_image_size("professorLandscape", 400, 260, true);
+    add_image_size("professorPotrait", 480, 650, true);
     // In dashboard, creates Menus option in Appearance
     // register_nav_menu("headerMenuLocation", "Header Menu Location");
     // register_nav_menu("footerLocationOne", "Footer Location One");
